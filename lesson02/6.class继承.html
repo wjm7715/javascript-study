@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    class Student {
+        constructor(name) {
+            this.name = name;
+        }
+
+        hello() {
+            alert("Hello World!")
+        }
+    }
+
+    class SmallStudent extends Student{
+        constructor(name, grade) {
+            super(name);
+            this.grade = grade;
+        }
+
+        myGrade() {
+            alert("我是一名小学生");
+        }
+    }
+
+    var xiaoming = new Student("xiaoming");
+    var xiaohong = new Student("xiaohong");
+    var smallStudent = new SmallStudent(xiaoming, 20);
+</script>
+
+</body>
+</html>
