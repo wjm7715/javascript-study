@@ -1,0 +1,1189 @@
+<html class="sui-componentWrap">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="always" name="referrer">
+    <meta name="theme-color" content="#2932e1">
+    <meta name="description" content="全球领先的中文搜索引擎、致力于让网民更便捷地获取信息，找到所求。百度超过千亿的中文网页数据库，可以瞬间找到相关的搜索结果。">
+    <style index="newi" type="text/css">#form .bdsug {
+        top: 39px
+    }
+    </style>
+
+    <style type="text/css"
+           index="head">blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+        margin: 0;
+        padding: 0
+    }
+
+    ol, ul {
+        list-style: none
+    }
+
+    a {
+        text-decoration: none
+    }
+
+    a:hover {
+        text-decoration: underline
+    }
+
+    .hide {
+        display: none
+    }
+
+    #s_lg_img, #s_lg_img_new {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -135px
+    }
+
+    #lk span {
+        font: 14px "\5b8b\4f53"
+    }
+
+    #mHolder {
+        display: none
+    }
+
+    #result_logo, #s_tab, #u, #wrapper_wrapper {
+        display: none
+    }
+
+    .c-font-normal {
+        font: 13px/23px Arial, sans-serif
+    }
+
+    .c-color-t {
+        color: #222
+    }
+
+   </style>
+
+    <style type="text/css" index="common">#head_wrapper {
+        position: relative;
+        height: 40%;
+        min-height: 314px;
+        max-height: 510px;
+        width: 1000px;
+        margin: 0 auto
+    }
+
+    #head_wrapper .s-p-top {
+        height: 60%;
+        min-height: 185px;
+        max-height: 310px;
+        position: relative;
+        z-index: 0;
+        text-align: center
+    }
+
+    #head_wrapper #s_lg_img, #head_wrapper #s_lg_img_new {
+        bottom: 15px !important
+    }
+
+    #head_wrapper input {
+        outline: 0;
+        -webkit-appearance: none
+    }
+
+    #head_wrapper input::-webkit-input-placeholder {
+        color: #9195a3
+    }
+
+    #head_wrapper .s_btn_wr, #head_wrapper .s_ipt_wr {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        background: 0 0;
+        vertical-align: top;
+        *vertical-align: middle
+    }
+
+    #head_wrapper .s_ipt_wr {
+        position: relative;
+        width: 546px
+    }
+
+    #head_wrapper .s_btn_wr {
+        width: 108px;
+        height: 44px;
+        position: relative;
+        z-index: 2
+    }
+
+    #head_wrapper .s_ipt_wr:hover #kw {
+        border-color: #a7aab5
+    }
+
+    #head_wrapper #kw {
+        width: 512px;
+        height: 16px;
+        padding: 12px 16px;
+        font-size: 16px;
+        margin: 0;
+        vertical-align: top;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 10px 0 0 10px;
+        border: 2px solid #c4c7ce;
+        background: #fff;
+        color: #222;
+        overflow: hidden;
+        box-sizing: content-box
+    }
+
+    #head_wrapper #kw:focus {
+        border-color: #4e6ef2 !important;
+        opacity: 1;
+        filter: alpha(opacity=100) \9
+    }
+
+    #head_wrapper .soutu-env-mac #form #kw {
+        width: 450px !important;
+        padding-right: 78px !important
+    }
+
+    #head_wrapper.s-down .soutu-env-mac #form #kw {
+        width: 450px !important
+    }
+
+    #head_wrapper .soutu-env-nomac #form #kw {
+        width: 480px !important;
+        padding-right: 48px !important
+    }
+
+    #head_wrapper.s-down .soutu-env-nomac #form #kw {
+        width: 480px !important
+    }
+
+    #head_wrapper .s_form {
+        width: 654px;
+        height: 100%;
+        margin: 0 auto;
+        text-align: left;
+        z-index: 100
+    }
+
+    #head_wrapper .s_btn {
+        cursor: pointer;
+        width: 108px;
+        height: 44px;
+        line-height: 45px;
+        line-height: 44px \9;
+        padding: 0;
+        background: 0 0;
+        background-color: #4e6ef2;
+        border-radius: 0 10px 10px 0;
+        font-size: 17px;
+        color: #fff;
+        box-shadow: none;
+        font-weight: 400;
+        border: none;
+        outline: 0
+    }
+
+    #head_wrapper .s_btn:hover {
+        background-color: #4662d9
+    }
+
+    #head_wrapper .s_btn:active {
+        background-color: #4662d9
+    }
+
+    #head_wrapper.s-down {
+        position: fixed;
+        _position: static;
+        top: 0;
+        left: 0;
+        height: 50px;
+        min-height: 50px;
+        z-index: 20;
+        width: 100%;
+        padding-top: 15px;
+        _margin: 0 auto
+    }
+
+    #head_wrapper.s-down .s_form {
+        width: 100%;
+        min-width: 1250px;
+        margin: 0 auto;
+        height: 100%;
+        padding-left: 0;
+        margin-top: 0;
+        min-height: 0
+    }
+
+    #head_wrapper.s-down .s_form .s_form_wrapper {
+        margin: 0 auto
+    }
+
+    #head_wrapper.s-down .s-p-top {
+        display: none
+    }
+
+    #head_wrapper.s-down #result_logo, #head_wrapper.s-down .fm {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        vertical-align: middle;
+        margin-left: -119px
+    }
+
+    @-webkit-keyframes fadein {
+        from {
+            opacity: 0
+        }
+        to {
+            opacity: 1
+        }
+    }
+
+    #head_wrapper.s-down #result_logo {
+        -webkit-animation: fadein 1s
+    }
+
+    #head_wrapper.s-down .fm {
+        margin: 0 0 0 18px
+    }
+
+    #head_wrapper.s-down #result_logo img {
+        width: 101px
+    }
+
+    #head_wrapper.s-down #kw {
+        padding: 10px 16px;
+        width: 512px
+    }
+
+    #head_wrapper.s-down .s_ipt_wr {
+        width: 546px
+    }
+
+    #head_wrapper.s-down .s_btn, #head_wrapper.s-down .s_btn_wr {
+        height: 40px
+    }
+
+    #head_wrapper.s-down .s_btn {
+        line-height: 41px;
+        line-height: 40px \9
+    }
+
+    #head_wrapper .ipt_rec, #head_wrapper .soutu-btn {
+        background: #fff url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png) no-repeat;
+        width: 24px;
+        height: 20px
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        #head_wrapper .ipt_rec, #head_wrapper .soutu-btn {
+            background-image: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-2x-6258e1cf13.png);
+            background-size: 24px 96px
+        }
+    }
+
+    #head_wrapper .soutu-btn {
+        background-position: 0 -51px;
+        right: 16px;
+        margin-top: -9px
+    }
+
+    #head_wrapper .soutu-btn:hover {
+        background-position: 0 -75px
+    }
+
+    #head_wrapper .ipt_rec {
+        background-position: 0 -2px;
+        top: 50%;
+        right: 52px !important;
+        margin-top: -10px
+    }
+
+    #head_wrapper .ipt_rec:hover {
+        background-position: 0 -26px
+    }
+
+    #head_wrapper .ipt_rec:after {
+        display: none
+    }
+
+    #head_wrapper .under-tips {
+        font-size: 13px;
+        color: #222;
+        text-align: center
+    }
+
+    #head_wrapper .under-tips .links-link {
+        color: #222;
+        display: inline-block
+    }
+
+    #head_wrapper .under-tips .links-link:hover {
+        color: #315efb
+    }
+
+    #head_wrapper .under-tips .links-link--image {
+        display: inline-block;
+        width: 176px;
+        height: 30px;
+        border-radius: 6px;
+        overflow: hidden;
+        margin-top: 8px
+    }
+
+    #head_wrapper .under-tips .links-emphasize-link {
+        margin-top: 2px;
+        margin-right: 20px;
+        padding: 0 8px;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 30px;
+        display: inline-block;
+        color: #2027b4;
+        border-radius: 6px;
+        background: #f5f7fe
+    }
+
+    #head_wrapper .under-tips .links-emphasize-link:hover {
+        color: #315efb
+    }
+
+    #head_wrapper .under-tips .links-emphasize-link.last {
+        margin-right: 0
+    }
+
+    #head_wrapper .under-tips .icon {
+        display: inline-block;
+        background-color: #dadde2;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        margin: 0 20px;
+        line-height: 18px;
+        vertical-align: top
+    }
+
+    #head_wrapper #m {
+        margin: 38px auto 0 auto;
+        width: 100%
+    }
+
+    #head_wrapper #m .icon {
+        margin-top: 8px
+    }
+
+    #head_wrapper #s_lm_wrap {
+        position: static;
+        margin: 32px auto 0 auto;
+        width: 100%
+    }
+
+    #head_wrapper #s_lm_wrap .links-wrap {
+        display: inline-block;
+        margin: 0 auto
+    }
+
+    #head_wrapper #s_lm_wrap .links-wrap .links-link:hover {
+        text-decoration: none
+    }
+
+    #head_wrapper #s_lm_wrap .links-wrap .icon {
+        margin-top: 13px
+    }
+
+    #head_wrapper.s-ps-islite #m {
+        position: absolute;
+        bottom: -56px
+    }
+
+    #head_wrapper.s-ps-islite #s_lm_wrap {
+        position: absolute;
+        margin-bottom: 0;
+        bottom: -62px;
+        left: 0;
+        box-sizing: border-box
+    }
+
+    .s-skin-hasbg #head_wrapper .s_btn {
+        background: #4e6ef2;
+        color: #fff
+    }
+
+    .s-skin-hasbg #head_wrapper .s_btn:hover {
+        background-color: #4662d9
+    }
+
+    .s-skin-hasbg #head_wrapper .s_btn:active {
+        background-color: #4662d9
+    }
+
+    .s-skin-hasbg #head_wrapper #form #kw {
+        border-color: #4569ff
+    }
+
+    .s-skin-hasbg #head_wrapper #form #kw:hover {
+        border-color: #4569ff;
+        opacity: 1;
+        filter: alpha(opacity=100) \9
+    }
+
+    .s-skin-hasbg #head_wrapper #form #kw:focus {
+        border-color: #4569ff !important;
+        opacity: 1;
+        filter: alpha(opacity=100) \9
+    }
+
+    .s-skin-hasbg #head_wrapper #form #kw.new-ipt-focus {
+        border-color: #4569ff
+    }
+
+    .s-skin-hasbg #head_wrapper #s_lm_wrap {
+        background-image: none;
+        filter: none
+    }
+
+    .s-skin-hasbg #head_wrapper #s_lm_wrap .links-wrap {
+        background-color: rgba(255, 255, 255, .65) !important;
+        padding: 0 12px;
+        border-radius: 6px
+    }
+
+    .s-skin-hasbg #head_wrapper #s_lm_wrap .links-wrap .icon {
+        margin-top: 13px
+    }
+
+    .s-skin-hasbg #head_wrapper.s-down #form #kw {
+        border-color: #c4c7ce
+    }
+
+    .s-skin-hasbg #head_wrapper.s-down #form #kw:hover {
+        border-color: #a7aab5;
+        opacity: .8;
+        filter: alpha(opacity=80) \9
+    }
+
+    .s-skin-hasbg #head_wrapper.s-down #form #kw:focus {
+        border-color: #4e6ef2 !important;
+        opacity: 1;
+        filter: alpha(opacity=100) \9
+    }
+
+    .s-skin-hasbg #head_wrapper.s-down #form #kw.new-ipt-focus {
+        border-color: #4e6ef2
+    }
+
+    .s-skin-hasbg #head_wrapper.s-down .s_btn {
+        background: #4e6ef2;
+        color: #fff
+    }
+
+    .s-skin-hasbg #head_wrapper.s-down .s_btn:hover {
+        background-color: #4662d9
+    }
+
+    .s-skin-hasbg #head_wrapper.s-down .s_btn:active {
+        background-color: #4662d9
+    }
+
+    #s_top_wrap {
+        position: absolute;
+        z-index: 99;
+        min-width: 1000px;
+        width: 100%
+    }
+
+    #s_top_wrap.s-down {
+        position: fixed;
+        _position: absolute;
+        top: 0;
+        left: 0;
+        height: 70px;
+        z-index: 10;
+        width: 100%
+    }
+
+    #s_top_wrap .s-center-box {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        _width: 1000px;
+        height: 100%
+    }
+
+    #s_top_wrap.s-down .s-center-box {
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+        background-color: #fff;
+        border-bottom: 1px solid #888 \9;
+        _border-bottom: 0
+    }
+
+    #s_top_wrap .s-top-nav {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        min-width: 1250px;
+        _width: 1000px;
+        height: 40px;
+        overflow: hidden;
+        display: none
+    }
+
+    .s-top-wrap {
+        border-bottom: 0;
+        height: 60px;
+        background: #fff
+    }
+
+    .s-top-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        height: 60px;
+        padding-left: 24px
+    }
+
+    .s-top-left .mnav {
+        margin-right: 31px;
+        margin-top: 19px;
+        display: inline-block;
+        position: relative
+    }
+
+    .s-top-left .mnav:hover .s-bri, .s-top-left a:hover {
+        color: #315efb;
+        text-decoration: none
+    }
+
+    .s-top-left .s-top-more-btn {
+        padding-bottom: 19px
+    }
+
+    .s-top-left .s-top-more {
+        display: none;
+        position: absolute;
+        top: 29px;
+        right: -12px;
+        width: 304px;
+        height: 223px;
+        background: #fff;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+        border-radius: 12px
+    }
+
+    .s-top-left .s-top-more .s-top-more-content.row-1 {
+        padding-top: 16px
+    }
+
+    .s-top-left .s-top-more .s-top-more-content.row-2 {
+        padding-top: 19px
+    }
+
+    .s-top-left .s-top-more .s-top-more-content a {
+        width: 76px;
+        height: 70px;
+        float: left
+    }
+
+    .s-top-left .s-top-more .s-top-more-content img {
+        width: 42px;
+        height: 42px;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, .03);
+        border-radius: 12px;
+        display: block
+    }
+
+    .s-top-left .s-top-more .s-top-more-content .s-top-more-title {
+        width: 76px;
+        text-align: center;
+        margin-top: 3px
+    }
+
+    .s-top-left .s-top-more .s-top-more-content > a:hover .s-top-more-title {
+        color: #315efb
+    }
+
+    .s-top-left .s-top-more .s-top-tomore {
+        margin-top: 10px
+    }
+
+    .s-top-left .s-top-more-btn:hover .s-top-more {
+        display: block
+    }
+
+    .s-top-right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 100;
+        height: 60px;
+        padding-right: 24px
+    }
+
+    .s-top-right .s-top-right-text {
+        margin-left: 32px;
+        margin-top: 19px;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        cursor: pointer
+    }
+
+    .s-top-right .s-top-right-text:hover {
+        color: #315efb
+    }
+
+    .s-top-right .s-top-username {
+        margin-left: 32px;
+        margin-top: 15px;
+        display: inline-block;
+        height: 30px;
+        position: relative
+    }
+
+    .s-top-right .s-top-username .s-top-img-wrapper {
+        position: relative;
+        width: 28px;
+        height: 28px;
+        border: 1px solid #4e71f2;
+        display: inline-block;
+        border-radius: 50%
+    }
+
+    .s-top-right .s-top-username img {
+        padding: 2px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%
+    }
+
+    .s-top-right .s-top-username .user-name {
+        display: inline-block;
+        max-width: 100px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        vertical-align: top;
+        margin-top: 3px;
+        margin-left: 6px
+    }
+
+    .s-top-userset-menu {
+        display: none;
+        width: 84px;
+        padding: 8px 0;
+        top: 48px;
+        position: absolute;
+        right: 10px;
+        float: right;
+        z-index: 999;
+        text-align: left
+    }
+
+    .guide-info {
+        background-color: #fff;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+        border-radius: 12px 2px 12px 12px;
+        height: 36px;
+        width: 258px;
+        text-align: left;
+        position: absolute;
+        margin-top: 6px;
+        padding: 5px 0 5px 10px;
+        display: none
+    }
+
+  </style>
+    <style type="text/css" index="weather">.s-weather-wrapper {
+        float: none;
+        display: inline-block;
+        margin-left: 32px;
+        margin-top: 19px;
+        height: 23px;
+        vertical-align: top
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod {
+        display: none
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .city-wather {
+        display: inline-block
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .city-wather .show-city {
+        height: 23px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 8px
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .city-wather .show-icon {
+        margin-right: 8px
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .city-wather .show-icon .weather-icon {
+        width: 23px;
+        height: 23px;
+        display: inline-block;
+        background-size: 100% 100%;
+        margin-right: 4px
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .city-wather .show-icon .show-icon-temp {
+        vertical-align: top
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .show-pollution {
+        display: inline-block;
+        vertical-align: top;
+        height: 23px;
+        line-height: 23px
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .show-pollution .show-polution-name {
+        height: 18px;
+        color: #fff;
+        font-size: 11px;
+        display: inline-block;
+        line-height: 17px;
+        text-align: center;
+        padding: 0 6px
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .show-pollution .show-airParm {
+        background-color: #cacaca;
+        border-radius: 9px
+    }
+
+    .s-weather-wrapper .s-mod-weather .weather-mod .show-pollution .polution-level-0 {
+        background-color: #40c057
+    }
+
+    .s-weather-wrapper .s-mod-weather.hide-unknow-city .weather-mod {
+        display: block
+    }
+
+    .s-weather-wrapper .s-mod-weather.hide-unknow-city .unknown-city {
+        display: none
+    }
+
+</style>
+
+
+</head>
+<body class=" s-manhattan-index" style="">
+
+
+<div id="wrapper" class="wrapper_new">
+    <div class="s-skin-container s-isindex-wrap"></div>
+    <div id="head" class="">
+        <div id="s_top_wrap" class="s-top-wrap s-isindex-wrap" style="left: 0px;">
+            <div class="s-top-nav" style="display: none;"></div>
+            <div class="s-center-box"></div>
+        </div>
+        <div id="s-top-left" class="s-top-left s-isindex-wrap"><a href="http://news.baidu.com" target="_blank"
+                                                                  class="mnav c-font-normal c-color-t">新闻</a><a
+                href="https://www.hao123.com" target="_blank" class="mnav c-font-normal c-color-t">hao123</a><a
+                href="http://map.baidu.com" target="_blank" class="mnav c-font-normal c-color-t">地图</a><a
+                href="https://live.baidu.com/" target="_blank" class="mnav c-font-normal c-color-t">直播</a><a
+                href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank"
+                class="mnav c-font-normal c-color-t">视频</a><a href="http://tieba.baidu.com" target="_blank"
+                                                              class="mnav c-font-normal c-color-t">贴吧</a><a
+                href="http://xueshu.baidu.com" target="_blank" class="mnav c-font-normal c-color-t">学术</a>
+            <div class="mnav s-top-more-btn"><a href="http://www.baidu.com/more/" name="tj_briicon"
+                                                class="s-bri c-font-normal c-color-t" target="_blank">更多</a>
+                <div class="s-top-more" id="s-top-more">
+                    <div class="s-top-more-content row-1 clearfix"><a href="https://pan.baidu.com" target="_blank"
+                                                                      name="tj_wangpan"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/baiduyun@2x-e0be79e69e.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">网盘</div>
+                    </a><a href="https://zhidao.baidu.com" target="_blank" name="tj_zhidao"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/zhidao@2x-e9b427ecc4.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">知道</div>
+                    </a><a href="https://baike.baidu.com" target="_blank" name="tj_baike"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/baike@2x-1fe3db7fa6.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">百科</div>
+                    </a><a href="http://image.baidu.com" target="_blank" name="tj_img"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/tupian@2x-482fc011fc.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">图片</div>
+                    </a></div>
+                    <div class="s-top-more-content row-2 clearfix"><a href="https://baobao.baidu.com" target="_blank"
+                                                                      name="tj_baobaozhidao"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/baobaozhidao@2x-af409f9dbe.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">宝宝知道</div>
+                    </a><a href="https://wenku.baidu.com" target="_blank" name="tj_wenku"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/wenku@2x-f3aba893c1.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">文库</div>
+                    </a><a href="https://jingyan.baidu.com" target="_blank" name="tj_jingyan"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/jingyan@2x-e53eac48cb.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">经验</div>
+                    </a><a href="http://music.taihe.com" target="_blank" name="tj_mp3"><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/yinyue@2x-c18adacacb.png">
+                        <div class="s-top-more-title c-font-normal c-color-t">音乐</div>
+                    </a></div>
+                    <div class="s-top-tomore"><a class="c-color-gray2 c-font-normal" href="http://www.baidu.com/more/"
+                                                 target="_blank" name="tj_more">查看全部百度产品 &gt;</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="u1" class="s-top-right s-isindex-wrap">
+            <div class="s-weather-wrapper">
+                <div id="s_mod_weather" class="s-mod-weather s-isindex-wrap hide-unknow-city">
+                    <div class="weather-mod"><a class="city-wather"
+                                                href="//www.baidu.com/s?tn=baidutop10&amp;rsv_idx=2&amp;wd=%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5"
+                                                target="_blank">
+                        <div class="show-weather"><span class="show-city"><span
+                                class="show-city-name c-font-normal c-color-t" data-key="杭州">杭州</span></span><span
+                                class="show-icon"><img class="weather-icon"
+                                                       src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons/a1.png"
+                                                       ;=""><span
+                                class="show-icon-temp c-font-normal c-color-t">19℃</span></span><span
+                                class="show-temp"></span></div>
+                    </a>
+                        <div class="show-pollution "><span class="show-airParm polution-level-0"><span
+                                class="show-polution-name">优</span></span></div>
+                    </div>
+                    <div class="unknown-city"><span class="unknown-icon c-icon"></span><span
+                            class="unknown-setting c-font-normal c-color-t">查看天气信息</span></div>
+                    <div id="s_mod_setweather" class="s-mod-setweather show-content hide-warning hide" style="">
+                        <div class="weather-setting-content">
+                            <div class="setweather-content">
+                                <div class="warn-mod"><a class="warn-mod-wrapper" target="_blank" hidefocus="" href="">
+                                    <div class="warn-icon-link"></div>
+                                    <div class="warn-img-bg"></div>
+                                    <div class="warn-title c-font-normal c-color-visited"></div>
+                                </a></div>
+                                <div class="lunar-mod"><span class="lunar-calendar c-font-normal c-color-text"
+                                                             title="06月04日">06月04日</span><span
+                                        class="lunar-festival c-font-normal c-color-gray2"
+                                        title="农历 四月廿四">农历 四月廿四</span><a class="lunar-sevenday-link" target="_blank"
+                                                                         hidefocus=""
+                                                                         href="http://www.weather.com.cn/weather/101210101.shtml#7d"><span
+                                        class="lunar-sevenday c-font-normal">未来七天天气</span></a><span
+                                        class="lunar-setting-btn"><span class="c-icon"></span><span
+                                        class="lunar-settint-text c-font-normal c-color-gray2">切换</span></span></div>
+                                <div class="everyday-mod clearfix">
+                                    <div class="everyday-item today is-today" day-name="today"><a class="everyday-link"
+                                                                                                  target="_blank"
+                                                                                                  hidefocus=""
+                                                                                                  href="//www.baidu.com/s?tn=baidutop10&amp;rsv_idx=2&amp;wd=%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">
+                                        <div class="everyday-title c-font-normal c-color-text" title="今天(周五)">今天(周五)
+                                        </div>
+                                        <img class="everyday-icon"
+                                             src="https://dss2.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons2/a1.png">
+                                        <div class="everyday-temp c-font-normal c-color-text" title="19℃">19℃</div>
+                                        <div class="everyday-condition c-font-normal c-color-text" title="多云转晴">多云转晴
+                                        </div>
+                                        <div class="everyday-wind c-font-normal c-color-text c-line-clamp1"
+                                             title="东南风4-5级">东南风4-5级
+                                        </div>
+                                    </a></div>
+                                    <div class="everyday-item tomorrow " day-name="tomorrow"><a class="everyday-link"
+                                                                                                target="_blank"
+                                                                                                hidefocus=""
+                                                                                                href="//www.baidu.com/s?tn=baidutop10&amp;rsv_idx=2&amp;wd=%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">
+                                        <div class="everyday-title c-font-normal c-color-text" title="明天(周六)">明天(周六)
+                                        </div>
+                                        <img class="everyday-icon"
+                                             src="https://dss1.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons2/a0.png">
+                                        <div class="everyday-temp c-font-normal c-color-text" title="20 ~ 30">20 ~ 30
+                                        </div>
+                                        <div class="everyday-condition c-font-normal c-color-text" title="晴">晴</div>
+                                        <div class="everyday-wind c-font-normal c-color-text c-line-clamp1"
+                                             title="南风3-4级">南风3-4级
+                                        </div>
+                                    </a></div>
+                                    <div class="everyday-item thirdday " day-name="thirdday"><a class="everyday-link"
+                                                                                                target="_blank"
+                                                                                                hidefocus=""
+                                                                                                href="//www.baidu.com/s?tn=baidutop10&amp;rsv_idx=2&amp;wd=%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">
+                                        <div class="everyday-title c-font-normal c-color-text" title="后天(周日)">后天(周日)
+                                        </div>
+                                        <img class="everyday-icon"
+                                             src="https://dss3.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons2/a0.png">
+                                        <div class="everyday-temp c-font-normal c-color-text" title="21 ~ 31">21 ~ 31
+                                        </div>
+                                        <div class="everyday-condition c-font-normal c-color-text" title="晴">晴</div>
+                                        <div class="everyday-wind c-font-normal c-color-text c-line-clamp1"
+                                             title="东风3-4级">东风3-4级
+                                        </div>
+                                    </a></div>
+                                    <div class="everyday-item fourthday " day-name="fourthday"><a class="everyday-link"
+                                                                                                  target="_blank"
+                                                                                                  hidefocus=""
+                                                                                                  href="//www.baidu.com/s?tn=baidutop10&amp;rsv_idx=2&amp;wd=%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">
+                                        <div class="everyday-title c-font-normal c-color-text" title="周一">周一</div>
+                                        <img class="everyday-icon"
+                                             src="https://dss3.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons2/a0.png">
+                                        <div class="everyday-temp c-font-normal c-color-text" title="19 ~ 32">19 ~ 32
+                                        </div>
+                                        <div class="everyday-condition c-font-normal c-color-text" title="晴">晴</div>
+                                        <div class="everyday-wind c-font-normal c-color-text c-line-clamp1"
+                                             title="东风4-5级">东风4-5级
+                                        </div>
+                                    </a></div>
+                                    <div class="everyday-item fifthday " day-name="fifthday"><a class="everyday-link"
+                                                                                                target="_blank"
+                                                                                                hidefocus=""
+                                                                                                href="//www.baidu.com/s?tn=baidutop10&amp;rsv_idx=2&amp;wd=%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">
+                                        <div class="everyday-title c-font-normal c-color-text" title="周二">周二</div>
+                                        <img class="everyday-icon"
+                                             src="https://dss1.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons2/a0.png">
+                                        <div class="everyday-temp c-font-normal c-color-text" title="23 ~ 30">23 ~ 30
+                                        </div>
+                                        <div class="everyday-condition c-font-normal c-color-text" title="晴">晴</div>
+                                        <div class="everyday-wind c-font-normal c-color-text c-line-clamp1"
+                                             title="东南风3-4级">东南风3-4级
+                                        </div>
+                                    </a></div>
+                                </div>
+                            </div>
+                            <div class="setweather-setting"><p class="setting-city-title c-font-normal c-color-text">
+                                选择您所在的地区：</p>
+                                <div class="setting-city-select">
+                                    <div class="c-select setting-city-province">
+                                        <div class="c-select-selection"><span
+                                                class="c-select-selected-value">浙江</span><i
+                                                class="c-icon c-select-arrow"></i></div>
+                                        <div class="c-select-dropdown" style="display: none;">
+                                            <div class="c-select-split"></div>
+                                            <ul class="c-select-dropdown-list c-select-scroll scroll-limit">
+                                                <li class="c-select-item " value="本地天气">本地天气</li>
+                                                <li class="c-select-item " value="北京">北京</li>
+                                                <li class="c-select-item " value="上海">上海</li>
+                                                <li class="c-select-item " value="天津">天津</li>
+                                                <li class="c-select-item " value="重庆">重庆</li>
+                                                <li class="c-select-item " value="安徽">安徽</li>
+                                                <li class="c-select-item " value="福建">福建</li>
+                                                <li class="c-select-item " value="甘肃">甘肃</li>
+                                                <li class="c-select-item " value="广东">广东</li>
+                                                <li class="c-select-item " value="广西">广西</li>
+                                                <li class="c-select-item " value="贵州">贵州</li>
+                                                <li class="c-select-item " value="海南">海南</li>
+                                                <li class="c-select-item " value="河北">河北</li>
+                                                <li class="c-select-item " value="河南">河南</li>
+                                                <li class="c-select-item " value="黑龙江">黑龙江</li>
+                                                <li class="c-select-item " value="湖北">湖北</li>
+                                                <li class="c-select-item " value="湖南">湖南</li>
+                                                <li class="c-select-item " value="吉林">吉林</li>
+                                                <li class="c-select-item " value="江苏">江苏</li>
+                                                <li class="c-select-item " value="江西">江西</li>
+                                                <li class="c-select-item " value="辽宁">辽宁</li>
+                                                <li class="c-select-item " value="内蒙古">内蒙古</li>
+                                                <li class="c-select-item " value="宁夏">宁夏</li>
+                                                <li class="c-select-item " value="青海">青海</li>
+                                                <li class="c-select-item " value="山东">山东</li>
+                                                <li class="c-select-item " value="山西">山西</li>
+                                                <li class="c-select-item " value="陕西">陕西</li>
+                                                <li class="c-select-item " value="四川">四川</li>
+                                                <li class="c-select-item " value="西藏">西藏</li>
+                                                <li class="c-select-item " value="新疆">新疆</li>
+                                                <li class="c-select-item " value="云南">云南</li>
+                                                <li class="c-select-item " value="浙江">浙江</li>
+                                                <li class="c-select-item " value="香港">香港</li>
+                                                <li class="c-select-item " value="澳门">澳门</li>
+                                                <li class="c-select-item " value="台湾">台湾</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="c-select setting-city-county">
+                                        <div class="c-select-selection"><span
+                                                class="c-select-selected-value">杭州</span><i
+                                                class="c-icon c-select-arrow"></i></div>
+                                        <div class="c-select-dropdown" style="display: none;">
+                                            <div class="c-select-split"></div>
+                                            <ul class="c-select-dropdown-list c-select-scroll scroll-limit">
+                                                <li class="c-select-item " value="本地天气">本地天气</li>
+                                                <li class="c-select-item " value="杭州">杭州</li>
+                                                <li class="c-select-item " value="安吉">安吉</li>
+                                                <li class="c-select-item " value="北仑">北仑</li>
+                                                <li class="c-select-item " value="苍南">苍南</li>
+                                                <li class="c-select-item " value="常山">常山</li>
+                                                <li class="c-select-item " value="淳安">淳安</li>
+                                                <li class="c-select-item " value="慈溪">慈溪</li>
+                                                <li class="c-select-item " value="岱山">岱山</li>
+                                                <li class="c-select-item " value="德清">德清</li>
+                                                <li class="c-select-item " value="定海">定海</li>
+                                                <li class="c-select-item " value="东阳">东阳</li>
+                                                <li class="c-select-item " value="洞头">洞头</li>
+                                                <li class="c-select-item " value="奉化">奉化</li>
+                                                <li class="c-select-item " value="富阳">富阳</li>
+                                                <li class="c-select-item " value="海宁">海宁</li>
+                                                <li class="c-select-item " value="海盐">海盐</li>
+                                                <li class="c-select-item " value="洪家">洪家</li>
+                                                <li class="c-select-item " value="湖州">湖州</li>
+                                                <li class="c-select-item " value="黄岩">黄岩</li>
+                                                <li class="c-select-item " value="嘉善">嘉善</li>
+                                                <li class="c-select-item " value="嘉兴">嘉兴</li>
+                                                <li class="c-select-item " value="建德">建德</li>
+                                                <li class="c-select-item " value="江山">江山</li>
+                                                <li class="c-select-item " value="椒江">椒江</li>
+                                                <li class="c-select-item " value="金华">金华</li>
+                                                <li class="c-select-item " value="缙云">缙云</li>
+                                                <li class="c-select-item " value="景宁">景宁</li>
+                                                <li class="c-select-item " value="开化">开化</li>
+                                                <li class="c-select-item " value="兰溪">兰溪</li>
+                                                <li class="c-select-item " value="乐清">乐清</li>
+                                                <li class="c-select-item " value="丽水">丽水</li>
+                                                <li class="c-select-item " value="临安">临安</li>
+                                                <li class="c-select-item " value="临海">临海</li>
+                                                <li class="c-select-item " value="龙泉">龙泉</li>
+                                                <li class="c-select-item " value="龙游">龙游</li>
+                                                <li class="c-select-item " value="宁波">宁波</li>
+                                                <li class="c-select-item " value="宁海">宁海</li>
+                                                <li class="c-select-item " value="磐安">磐安</li>
+                                                <li class="c-select-item " value="平湖">平湖</li>
+                                                <li class="c-select-item " value="平阳">平阳</li>
+                                                <li class="c-select-item " value="浦江">浦江</li>
+                                                <li class="c-select-item " value="普陀">普陀</li>
+                                                <li class="c-select-item " value="青田">青田</li>
+                                                <li class="c-select-item " value="庆元">庆元</li>
+                                                <li class="c-select-item " value="衢江">衢江</li>
+                                                <li class="c-select-item " value="衢州">衢州</li>
+                                                <li class="c-select-item " value="瑞安">瑞安</li>
+                                                <li class="c-select-item " value="三门">三门</li>
+                                                <li class="c-select-item " value="上虞">上虞</li>
+                                                <li class="c-select-item " value="绍兴">绍兴</li>
+                                                <li class="c-select-item " value="嵊泗">嵊泗</li>
+                                                <li class="c-select-item " value="嵊州">嵊州</li>
+                                                <li class="c-select-item " value="松阳">松阳</li>
+                                                <li class="c-select-item " value="遂昌">遂昌</li>
+                                                <li class="c-select-item " value="台州">台州</li>
+                                                <li class="c-select-item " value="泰顺">泰顺</li>
+                                                <li class="c-select-item " value="天台">天台</li>
+                                                <li class="c-select-item " value="桐庐">桐庐</li>
+                                                <li class="c-select-item " value="桐乡">桐乡</li>
+                                                <li class="c-select-item " value="温岭">温岭</li>
+                                                <li class="c-select-item " value="温州">温州</li>
+                                                <li class="c-select-item " value="文成">文成</li>
+                                                <li class="c-select-item " value="武义">武义</li>
+                                                <li class="c-select-item " value="象山">象山</li>
+                                                <li class="c-select-item " value="萧山">萧山</li>
+                                                <li class="c-select-item " value="新昌">新昌</li>
+                                                <li class="c-select-item " value="义乌">义乌</li>
+                                                <li class="c-select-item " value="鄞州">鄞州</li>
+                                                <li class="c-select-item " value="永嘉">永嘉</li>
+                                                <li class="c-select-item " value="永康">永康</li>
+                                                <li class="c-select-item " value="余杭">余杭</li>
+                                                <li class="c-select-item " value="余姚">余姚</li>
+                                                <li class="c-select-item " value="玉环">玉环</li>
+                                                <li class="c-select-item " value="云和">云和</li>
+                                                <li class="c-select-item " value="长兴">长兴</li>
+                                                <li class="c-select-item " value="镇海">镇海</li>
+                                                <li class="c-select-item " value="舟山">舟山</li>
+                                                <li class="c-select-item " value="诸暨">诸暨</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="setting-extreme-weather" id="s_mod_setweather_extreme"><span
+                                        class="setting-extreme-weather-checkbox c-checkbox c-checkbox-checked"><span
+                                        class="c-checkbox-inner"><span class="c-icon c-checkbox-inner-bg"></span></span></span>
+                                    <span class="setting-extreme-weather-label c-font-normal c-color-t">极端天气提醒</span>
+                                    <div class="setting-extreme-weather-text c-font-normal c-color-gray2">
+                                        出现大雨、大雪、冰雹等极端天气时，我们将提前在百度首页通知您
+                                    </div>
+                                </div>
+                                <div class="setting-save-or-cancel"><span class="c-btn setting-cancel">取消</span><span
+                                        class="c-btn c-btn-primary setting-save">保存选项</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="s-top-right-text c-font-normal c-color-t" id="s-usersetting-top"
+                  name="tj_settingicon">设置</span><a id="s-top-username" class="s-top-username" data-tid="2004"
+                                                    href="https://www.baidu.com/my/index" target="_blank"><span
+                class="s-top-img-wrapper"><img
+                src="https://himg.bdimg.com/sys/portraitn/item/af61c6e1badab5c4f7c8d3b036c7f8c181"></span><span
+                class="user-name c-font-normal c-color-t">漆黑的魅影6区</span></a>
+            <div id="s-user-name-menu" class="s-top-userset-menu c-floating-box c-font-normal"><a
+                    href="https://www.baidu.com/my/index" class="user-menu-item" target="_blank"
+                    data-tid="1000">个人中心</a><a href="http://passport.baidu.com/" class="user-menu-item" data-tid="1001"
+                                               target="_blank">帐号设置</a><a class="s-switch-accunt" href="javascript:;">切换帐号</a><a
+                    class="quit" style="overflow:hidden" href="javascript:;" onclick="return false;">退出登录</a></div>
+            <div id="s-user-setting-menu" class="s-top-userset-menu c-floating-box c-font-normal">
+                <div class="s-user-setting-pfmenu"></div>
+                <a class="s-set-feed hide-feed" href="javascript:;">隐藏资讯</a><a class="s-set-feed show-feed"
+                                                                               href="javascript:;">展示资讯</a><span
+                    class="split-line"></span><a class="s-set-skin red-point" href="javascript:;"
+                                                 data-tid="2001">更换皮肤</a></div>
+            <div class="guide-info guide-info-login"><i class="c-icon guide-icon"></i><span>新春焕新肤，设置后即可拥有！</span><i
+                    class="c-icon guide-close"></i></div>
+        </div>
+        <div id="head_wrapper" class="s-isindex-wrap head_wrapper s-title-img">
+            <link rel="stylesheet"
+                  href="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/css/soutu_new2_ae491b7.css"
+                  type="text/css" data-for="result">
+            <div id="s_fm" class="s_form s_form_login">
+                <div class="s_form_wrapper soutu-env-nomac soutu-env-newindex" id="s_form_wrapper">
+                    <div id="lg" class="s-p-top"><img id="s_lg_img" class="s_lg_img_gold_show"
+                                                      src="//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
+                                                      width="270" height="129"
+                                                      onerror="this.src='https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1-66368c33f8.png';this.onerror=null;"
+                                                      usemap="#mp"><img id="s_lg_img_new" class="s_lg_img_gold_showre"
+                                                                        src="//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
+                                                                        width="270" height="129"
+                                                                        onerror="this.src='https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1-66368c33f8.png';this.onerror=null;"
+                                                                        usemap="#mp">
+                        <map name="mp" id="s_mp">
+                            <area style="cursor:pointer;outline:none;" shape="rect" coords="0,0,270,129"
+                                  href="//www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&amp;tn=SE_Pclogo_6ysd4c7a&amp;sa=ire_dl_gh_logo&amp;rsv_dl=igh_logo_pc"
+                                  target="_blank" title="点击一下，了解更多"
+                                  onmousedown="return ns_c({'fm':'behs','tab':'bdlogo'})">
+                        </map>
+                    </div>
+                    <a href="/" id="result_logo" onmousedown="return c({'fm':'tab','tab':'logo'})"><img
+                            class="index-logo-src" src="//www.baidu.com/img/flexible/logo/pc/result.png" alt="到百度首页"
+                            title="到百度首页"><img class="index-logo-srcnew"
+                                               src="//www.baidu.com/img/flexible/logo/pc/result@2.png" alt="到百度首页"
+                                               title="到百度首页"><img class="index-logo-peak"
+                                                                  src="//www.baidu.com/img/flexible/logo/pc/peak-result.png"
+                                                                  alt="到百度首页" title="到百度首页"></a>
+                    <form name="f" id="form" action="/s" class="fm" onsubmit="javascript:F.call('ps/sug','pssubmit');">
+                        <span id="s_kw_wrap" class="bg s_ipt_wr quickdelete-wrap"><span class="soutu-btn"></span><input
+                                type="text" class="s_ipt" name="wd" id="kw" maxlength="100" autocomplete="off"><a
+                                href="javascript:;" id="quickdelete" title="清空" class="quickdelete"
+                                style="top: 0px; right: 0px; display: none;"></a><span class="soutu-hover-tip"
+                                                                                       style="display: none;">按图片搜索</span></span><input
+                            type="hidden" name="rsv_spt" value="1"><input type="hidden" name="rsv_iqid"
+                                                                          value="0xd170e95d0020928a"><input
+                            type="hidden" name="issp" value="1"><input type="hidden" name="f" value="8"><input
+                            type="hidden" name="rsv_bp" value="1"><input type="hidden" name="rsv_idx" value="2"><input
+                            type="hidden" name="ie" value="utf-8"><input type="hidden" name="rqlang" value=""><input
+                            type="hidden" name="tn" value="baiduhome_pg"><input type="hidden" name="ch" value=""><span
+                            class="btn_wr s_btn_wr bg" id="s_btn_wr"><input type="submit" value="百度一下" id="su"
+                                                                            class="btn self-btn bg s_btn"></span><span
+                            class="tools"><span id="mHolder"><div id="mCon"><span>输入法</span></div><ul id="mMenu"><li><a
+                            href="javascript:;" name="ime_hw">手写</a></li><li><a href="javascript:;" name="ime_py">拼音</a></li><li
+                            class="ln"></li><li><a href="javascript:;" name="ime_cl">关闭</a></li></ul></span><span
+                            class="bd_bear_home"></span></span><input type="hidden" name="rsv_enter" value="1"><input
+                            type="hidden" name="rsv_dl" value="ib"><input type="hidden" name="rsv_sug3" value="1">
+                    </form>
+                    <div id="s_lm_wrap" class="s_lm_hide s-isindex-wrap under-tips">
+                        <div id="lm-new"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="u"><a class="toindex" href="/">百度首页</a><span class="toindex"></span><a href="javascript:;"
+                                                                                            name="tj_settingicon"
+                                                                                            class="pf">设置<i
+                    class="c-icon c-icon-triangle-down"></i></a><a href="https://www.baidu.com/my/index" id="user"
+                                                                   class="username">
+                <span class="s-top-img-wrapper"><img
+                        src="https://himg.bdimg.com/sys/portraitn/item/af61c6e1badab5c4f7c8d3b036c7f8c181"></span>
+                <span class="s-top-username">漆黑的魅影6区</span>
+            </a>
+                <div class="bdpfmenu"></div>
+            </div>
+            <p class="s-skin-lm s-isindex-wrap"></p></div>
+    </div>
+</div>
+
+
+</body>
+</html>

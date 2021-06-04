@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+    font-family: 'microsoft yahei';
+    background: #40c057;
+}
+
+.website-404{
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-right: 10px solid #36c9ff;
+    overflow: hidden;
+}
